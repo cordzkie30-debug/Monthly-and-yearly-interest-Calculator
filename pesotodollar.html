@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dollar to Peso</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <main class="hero">
+    <h1>Dollar to Peso Converter</h1>
+
+    <div class="top-links">
+      <a href="yearly.html">Yearly</a>
+      <a href="monthly.html">Monthly</a>
+      <a href="pesotodollor.html">Dollar to Peso</a>
+    </div>
+
+    <section class="form-card single-card">
+      <label>Amount in USD</label>
+      <input type="number" id="dollarAmount" placeholder="e.g. 100" />
+
+      <label>Fixed Rate: 1 USD = 59 PHP</label>
+
+      <button onclick="convertDollarToPeso()">Convert to Peso</button>
+      <p id="currencyResult" class="result">Results:</p>
+    </section>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
